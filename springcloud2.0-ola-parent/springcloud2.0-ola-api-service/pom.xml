@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ola</groupId>
+    <artifactId>springcloud2.0-ola-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>springcloud2.0-ola-api-service</artifactId>
+  <packaging>pom</packaging>
+  <build/>
+  <modules>
+  	<module>springcloud2.0-ola-api-order-service</module>
+  	<module>springcloud2.0-ola-api-member-service</module>
+  </modules>
+</project>
